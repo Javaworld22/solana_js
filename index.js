@@ -42,6 +42,7 @@ const getBalance = async (publicKey) => {
 // Create account with data
 const createAccountWithData = async (data) => {
   try {
+    console.log("Start server")
      const connection = await connectionToSolana();
     // const keypair = Keypair.generate();
     // const publicKey = keypair.publicKey.toBase58();
